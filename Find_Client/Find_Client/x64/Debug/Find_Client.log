@@ -1,0 +1,26 @@
+﻿  Find_Client.cpp
+C:\Users\SH\source\repos\Find_Client\Find_Client\clsString.h(35,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Find_Client.cpp')
+  
+C:\Users\SH\source\repos\Find_Client\Find_Client\clsString.h(175,19): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Find_Client.cpp')
+  
+C:\Users\SH\source\repos\Find_Client\Find_Client\clsString.h(327,23): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Find_Client.cpp')
+  
+C:\Users\SH\source\repos\Find_Client\Find_Client\clsString.h(359,23): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Find_Client.cpp')
+  
+C:\Users\SH\source\repos\Find_Client\Find_Client\clsString.h(414,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Find_Client.cpp')
+  
+C:\Users\SH\source\repos\Find_Client\Find_Client\clsString.h(435,17): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Find_Client.cpp')
+  
+C:\Users\SH\source\repos\Find_Client\Find_Client\clsString.h(487,12): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Find_Client.cpp')
+  
+C:\Users\SH\source\repos\Find_Client\Find_Client\clsString.h(493,15): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Find_Client.cpp')
+  
+  Find_Client.vcxproj -> C:\Users\SH\source\repos\Find_Client\x64\Debug\Find_Client.exe

@@ -1,0 +1,33 @@
+﻿  Project1-Utility-Library.cpp
+C:\Users\SH\source\repos\Project1-Utility-Library\Project1-Utility-Library\clsString.h(35,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project1-Utility-Library.cpp')
+  
+C:\Users\SH\source\repos\Project1-Utility-Library\Project1-Utility-Library\clsString.h(175,19): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project1-Utility-Library.cpp')
+  
+C:\Users\SH\source\repos\Project1-Utility-Library\Project1-Utility-Library\clsString.h(327,23): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project1-Utility-Library.cpp')
+  
+C:\Users\SH\source\repos\Project1-Utility-Library\Project1-Utility-Library\clsString.h(359,23): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project1-Utility-Library.cpp')
+  
+C:\Users\SH\source\repos\Project1-Utility-Library\Project1-Utility-Library\clsString.h(414,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Project1-Utility-Library.cpp')
+  
+C:\Users\SH\source\repos\Project1-Utility-Library\Project1-Utility-Library\clsString.h(435,17): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project1-Utility-Library.cpp')
+  
+C:\Users\SH\source\repos\Project1-Utility-Library\Project1-Utility-Library\clsString.h(487,12): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project1-Utility-Library.cpp')
+  
+C:\Users\SH\source\repos\Project1-Utility-Library\Project1-Utility-Library\clsString.h(493,15): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project1-Utility-Library.cpp')
+  
+C:\Users\SH\source\repos\Project1-Utility-Library\Project1-Utility-Library\clsDate.h(949,14): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project1-Utility-Library.cpp')
+  
+C:\Users\SH\source\repos\Project1-Utility-Library\Project1-Utility-Library\clsDate.h(954,18): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project1-Utility-Library.cpp')
+  
+C:\Users\SH\source\repos\Project1-Utility-Library\Project1-Utility-Library\clsUtility.h(56,1): warning C4715: 'clsUtility::GetRandomCharacter': not all control paths return a value
+  Project1-Utility-Library.vcxproj -> C:\Users\SH\source\repos\Project1-Utility-Library\x64\Debug\Project1-Utility-Library.exe

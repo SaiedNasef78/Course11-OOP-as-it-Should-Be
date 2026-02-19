@@ -1,0 +1,19 @@
+Visual Studio
+.vs/
+x64/
+Debug/
+Release/
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.log
+*.tlog
+*.recipe
+*.lastbuildstate
+*.FileListAbsolute.txt
+*.idb
+*.suo
+*.db
+*.ipch
+*.vsidx

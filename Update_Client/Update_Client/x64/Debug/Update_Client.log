@@ -1,0 +1,36 @@
+﻿  Update_Client.cpp
+C:\Users\SH\source\repos\Update_Client\Update_Client\clsString.h(35,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Update_Client.cpp')
+  
+C:\Users\SH\source\repos\Update_Client\Update_Client\clsString.h(175,19): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Update_Client.cpp')
+  
+C:\Users\SH\source\repos\Update_Client\Update_Client\clsString.h(327,23): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Update_Client.cpp')
+  
+C:\Users\SH\source\repos\Update_Client\Update_Client\clsString.h(359,23): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Update_Client.cpp')
+  
+C:\Users\SH\source\repos\Update_Client\Update_Client\clsString.h(414,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Update_Client.cpp')
+  
+C:\Users\SH\source\repos\Update_Client\Update_Client\clsString.h(435,17): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Update_Client.cpp')
+  
+C:\Users\SH\source\repos\Update_Client\Update_Client\clsString.h(487,12): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Update_Client.cpp')
+  
+C:\Users\SH\source\repos\Update_Client\Update_Client\clsString.h(493,15): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Update_Client.cpp')
+  
+C:\Users\SH\source\repos\Update_Client\Update_Client\clsDate.h(949,14): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Update_Client.cpp')
+  
+C:\Users\SH\source\repos\Update_Client\Update_Client\clsDate.h(954,18): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Update_Client.cpp')
+  
+C:\Users\SH\source\repos\Update_Client\Update_Client\clsInputValidate.h(34,151): warning C4390: ';': empty controlled statement found; is this the intent?
+  (compiling source file 'Update_Client.cpp')
+  
+C:\Users\SH\source\repos\Update_Client\Update_Client\clsBankClient.h(222,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+LINK : fatal error LNK1104: cannot open file 'C:\Users\SH\source\repos\Update_Client\x64\Debug\Update_Client.exe'
