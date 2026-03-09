@@ -99,10 +99,10 @@ A console-based banking application built in **C++** using **Object-Oriented Pro
 
 | 📄 File | Description |
 |---|---|
-| `Clients.txt` | Persistent client records |
-| `Users.txt` | Persistent user records |
-| `TransferLog.txt` | Transfer transaction history |
-| `LoginRegistor.txt` | Login activity log |
+| `Clients.txt`[View →](Project_Banck_System/ShowMainMinue/Clients.txt) | Persistent client records | 
+| `Users.txt`[View →](Project_Banck_System/ShowMainMinue/Users.txt) | Persistent user records |
+| `TransferLog.txt`[View →](Project_Banck_System/ShowMainMinue/TransferLog.txt) | Transfer transaction history |
+| `LoginRegistor.txt` [View →](Project_Banck_System/ShowMainMinue/LoginRegistor.txt)| Login activity log |
 
 ---
 
