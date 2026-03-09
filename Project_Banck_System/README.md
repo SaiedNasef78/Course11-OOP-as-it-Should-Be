@@ -1,7 +1,4 @@
-
-
-
-# 🏦 Bank Client Management System
+Bank Client Management System
 
 A console-based banking application built in **C++** using **Object-Oriented Programming** principles. The system supports full client and user management, financial transactions, and a role-based permission system — all backed by file-based persistence.
 
