@@ -1,5 +1,0 @@
-﻿  AbsreactClassInterface.cpp
-C:\Users\SH\source\repos\AbsreactClassInterface\AbsreactClassInterface\InterfaceCommunication.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'AbsreactClassInterface.cpp')
-  
-  AbsreactClassInterface.vcxproj -> C:\Users\SH\source\repos\AbsreactClassInterface\x64\Debug\AbsreactClassInterface.exe
