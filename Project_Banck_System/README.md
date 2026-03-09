@@ -99,10 +99,10 @@ A console-based banking application built in **C++** using **Object-Oriented Pro
 
 | 📄 File | Description |
 |---|---|
-| `Clients.txt`[View →](Project_Banck_System/ShowMainMinue/Clients.txt) | Persistent client records | 
-| `Users.txt`[View →](Project_Banck_System/ShowMainMinue/Users.txt) | Persistent user records |
-| `TransferLog.txt`[View →](Project_Banck_System/ShowMainMinue/TransferLog.txt) | Transfer transaction history |
-| `LoginRegistor.txt` [View →](Project_Banck_System/ShowMainMinue/LoginRegistor.txt)| Login activity log |
+| `Clients.txt`[View →](https://github.com/SaiedNasef78/Course11-OOP-as-it-Should-Be/blob/7e6ea4cbd3a0b9e1ca317111536517fbe220906c/Project_Banck_System/ShowMainMinue/Clients.txt) | Persistent client records | 
+| `Users.txt`[View →](https://github.com/SaiedNasef78/Course11-OOP-as-it-Should-Be/blob/7e6ea4cbd3a0b9e1ca317111536517fbe220906c/Project_Banck_System/ShowMainMinue/Users.txt)  )| Persistent user records |
+| `TransferLog.txt`[View →](https://github.com/SaiedNasef78/Course11-OOP-as-it-Should-Be/blob/7e6ea4cbd3a0b9e1ca317111536517fbe220906c/Project_Banck_System/ShowMainMinue/TransferLog.txt)  ) | Transfer transaction history |
+| `LoginRegistor.txt` [View →](https://github.com/SaiedNasef78/Course11-OOP-as-it-Should-Be/blob/7e6ea4cbd3a0b9e1ca317111536517fbe220906c/Project_Banck_System/ShowMainMinue/LoginRegistor.txt)  )| Login activity log |
 
 ---
 
@@ -124,7 +124,10 @@ Or open the project in **Visual Studio** and build directly.
 - Console application — no GUI.
 - All data persisted locally in `.txt` files in the working directory.
 - Uses the **"mark for delete"** pattern before removing records from file.
-```    ├── Users.txt  [view](https://github.com/SaiedNasef78/Course11-OOP-as-it-Should-Be/blob/7e6ea4cbd3a0b9e1ca317111536517fbe220906c/Project_Banck_System/ShowMainMinue/Users.txt)              # Persistent user records
+```    ├── Users.txt  [view](https://github.com/SaiedNasef78/Course11-OOP-as-it-Should-Be/blob/7e6ea4cbd3a0b9e1ca317111536517fbe220906c/Project_Banck_System/ShowMainMinue/Users.txt
+```
+ # Persistent user records
+ ``
     ├── TransferLog.txt          # Transfer transaction history
     └── LoginRegistor.txt        # Login activity log
 
@@ -136,7 +139,7 @@ Or open the project in **Visual Studio** and build directly.
 - Users have a **bitmask permissions** field that controls access to each menu section.
 - The `global.h` file holds the `CurrentUser` session object used across all screens.
 
----
+
 
 ## 🧱 OOP Design
 
