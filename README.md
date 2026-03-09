@@ -77,12 +77,10 @@ A console-based banking application built in **C++** using **Object-Oriented Pro
 │
 └── Data Files
     ├── Clients.txt[view](https://github.com/SaiedNasef78/Course11-OOP-as-it-Should-Be/blob/7e6ea4cbd3a0b9e1ca317111536517fbe220906c/Project_Banck_System/ShowMainMinue/Clients.txt)              # Persistent client records
-    ├── Users.txt                # Persistent user records
+    ├── Users.txt  [view](https://github.com/SaiedNasef78/Course11-OOP-as-it-Should-Be/blob/7e6ea4cbd3a0b9e1ca317111536517fbe220906c/Project_Banck_System/ShowMainMinue/Users.txt)              # Persistent user records
     ├── TransferLog.txt          # Transfer transaction history
     └── LoginRegistor.txt        # Login activity log
-```
 
----
 
 ## ⚙️ How It Works
 
