@@ -1,7 +1,0 @@
-<Solution>
-  <Configurations>
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
-  <Project Path="AbsreactClassInterface/AbsreactClassInterface.vcxproj" Id="2b5c4043-db03-4f16-9c50-c80d2383b9f6" />
-</Solution>
