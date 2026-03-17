@@ -5,10 +5,13 @@
 #include "clsLoginScreen.h"
 #include "clsSMainScreen.h"
 #include "global.h"
-
+#include "clsCurrency.h"
 using namespace std;
+
 int main()
 {
+	
+
     /*clsSMainScreen::ShowMainMenue();*/
    while (true) {
        if (!clsLoginScreen::ShowLoginScreen())

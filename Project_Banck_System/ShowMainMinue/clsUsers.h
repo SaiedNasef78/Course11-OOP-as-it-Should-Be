@@ -15,7 +15,7 @@ private:
 		eEmptyMode = 1,
 		eUpdateMode = 2,
 		eAddNewMode=3
-
+		
 	};
 	enMode _Mode=eEmptyMode;
 	string _Password;
@@ -146,7 +146,8 @@ public :
 		pFindClient = 16,
 		pTransActions = 32,
 		pManageUsers = 64,
-		pLoginRegistor=128
+		pLoginRegistor=128,
+		pCurrencyExhange=256
 	};
 	
 

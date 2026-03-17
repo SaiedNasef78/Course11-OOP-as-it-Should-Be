@@ -85,6 +85,11 @@ private:
 			if (A == 'y' || A == 'Y') {
 				Per += clsUsers::pLoginRegistor;
 			}
+			cout << "\nCurrency Exhange Screen.\n";
+			cin >> A;
+			if (A == 'Y' || A == 'y') {
+				Per += clsUsers::pCurrencyExhange;
+			}
 
 
 			return Per;
