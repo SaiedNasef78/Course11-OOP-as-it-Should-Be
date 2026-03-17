@@ -12,7 +12,7 @@
 #include "clsManageUsers.h"
 #include "clsLoginRegistorScreen.h"
 #include "clsUsers.h"
-
+#include "clsCurrencyMainScreen.h"
 
 #include "global.h"
 using namespace std;
@@ -79,6 +79,11 @@ private :
 		
 
 	}
+	static void _ShowCurrencyExhangeScreen() {
+		clsCurrencyMainScreen::ShowCurrancyExhange();
+
+
+	}
 	static void _ShowLoginScreen() {
 		clsLoginRegistorScreen::ShowLoginScreen();
 	}
@@ -90,10 +95,11 @@ private :
 
 
 	}
+
 	enum enMainMinue {
 		ShowClient = 1, AddNewClient = 2, DelelteClient = 3
 		, UpdateClient = 4, FindClient = 5, TransAction = 6,
-		ManageUsers=7,LoginRegistr=8,Exist=9
+		ManageUsers=7,LoginRegistr=8,CurrecyExhange=9,Exist=10
 	};
 	static void _PerformMainMenueOption(enMainMinue OperationMainMenue) {
 		
@@ -160,6 +166,17 @@ private :
 			break;
 
 		}
+
+		case enMainMinue::CurrecyExhange:
+		{
+
+			system("cls");
+			_ShowCurrencyExhangeScreen();
+			_GoToBackMainMenue();
+			break;
+
+		}
+
 		case enMainMinue::Exist: {
 			
 			CurrentUser = clsUsers::Find("", "");
@@ -172,9 +189,9 @@ private :
 
 	}
 	static short _ReadMainMenue() {
-		cout << setw(37) << left << "" << "Choose what do you want to do [1 to 9] ?\n";
+		cout << setw(37) << left << "" << "Choose what do you want to do [1 to 10] ?\n";
 		cout << setw(37) << left << "";
-		short Choice = clsInputValidate::ReadIntNumberBetween(1, 9, "please enter number again? ");
+		short Choice = clsInputValidate::ReadIntNumberBetween(1, 10, "please enter number again? ");
 		return Choice;
 
 	}
@@ -186,15 +203,16 @@ public:
 		system("cls");
 		_DrawScreenHeader("MainScreen");
 		cout << left << setw(37) <<"" << "=========================================================\n";
-		cout << left << setw(37) << "" << "[1] Show Client List.\n";
-		cout << left << setw(37) << "" << "[2] Add New Client.\n";
-		cout << left << setw(37) << "" << "[3] Delete Client.\n";
-		cout << left << setw(37) << "" << "[4] Update Client.\n";
-		cout << left << setw(37) << "" << "[5] Find Client.\n";
-		cout << left << setw(37) << "" << "[6] Transactions.\n";
-		cout << left << setw(37) << "" << "[7] Manage Users.\n";
-		cout << left << setw(37) << "" << "[8] Login Registor.\n";
-		cout << left << setw(37) << "" << "[9] Logout.\n";
+		cout << left << setw(39) << "" << "[1] Show Client List.\n";
+		cout << left << setw(39) << "" << "[2] Add New Client.\n";
+		cout << left << setw(39) << "" << "[3] Delete Client.\n";
+		cout << left << setw(39) << "" << "[4] Update Client.\n";
+		cout << left << setw(39) << "" << "[5] Find Client.\n";
+		cout << left << setw(39) << "" << "[6] Transactions.\n";
+		cout << left << setw(39) << "" << "[7] Manage Users.\n";
+		cout << left << setw(39) << "" << "[8] Login Registor.\n";
+		cout << left << setw(39) << "" << "[9] Currency Exhange.\n";
+		cout << left << setw(39) << "" << "[10] Logout.\n";
 		cout << left << setw(37)  << ""<<"=========================================================\n";
 		
 		
