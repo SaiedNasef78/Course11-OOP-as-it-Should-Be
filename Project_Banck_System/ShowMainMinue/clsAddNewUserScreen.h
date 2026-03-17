@@ -84,6 +84,13 @@ private:
 		if (Answer == 'Y' || Answer == 'y') {
 			Permissions += clsUsers::pLoginRegistor;
 		}
+		
+		cout << "\nCurrency Exhange Screen.\n";
+		cin >> Answer;
+		if (Answer == 'Y' || Answer == 'y') {
+			Permissions += clsUsers::pCurrencyExhange;
+		}
+
 		return Permissions;
 	}
 	/*static int ReadPermiision() {

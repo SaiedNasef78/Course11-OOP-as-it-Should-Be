@@ -1,29 +1,14 @@
-// ShowMainMinue.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// AbsreactClassInterface.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-#include "clsLoginScreen.h"
-#include "clsSMainScreen.h"
-#include "global.h"
-#include "clsCurrency.h"
-using namespace std;
-
+#include "clsPerson.h"
 int main()
 {
-	
-
-    /*clsSMainScreen::ShowMainMenue();*/
-   while (true) {
-       if (!clsLoginScreen::ShowLoginScreen())
-       {
-           break;
-         }
-      
-
-
-    }
-    system("pause>0");
-    return 0;
+    clsPerson Person;
+    Person.SendEmail("", "");
+    Person.SendFax("", "");
+    Person.SendSMS("", "");
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
